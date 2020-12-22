@@ -1,0 +1,28 @@
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	/* vertical-align: middle; */
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	/* vertical-align: middle; */
+	width: 3px;
+	height: 4.5rem;
+	background-color: #fff;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #fff; 
+	}
+}
