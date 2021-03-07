@@ -1,0 +1,20 @@
+/* section.home {
+  background-color: #FBDE44FF;
+} */
+
+.bg-primary {
+  background-color: #343a40 !important;
+}
+
+.text-primary {
+  color: #fff !important;
+}
+
+section.home {
+  background-color: #FBDE44FF !important;
+  margin-right: 0px;
+}
+
+section.resume-section {
+  max-width: 100rem;
+}
