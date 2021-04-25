@@ -1,0 +1,47 @@
+.bg-primary {
+  background-color: #343a40 !important;
+}
+
+.text-primary {
+  color: #343a40 !important;
+}
+
+section {
+  background-color: #fff7ec;
+}
+
+section.resume-section {
+  max-width: 100rem;
+}
+
+section.home {
+  margin-right: 0px;
+}
+
+section.about {
+  margin-right: 0px;
+}
+
+section.about .email {
+  color: #fbde44ff !important;
+}
+
+section.about .social-icons {
+  color: #fbde44ff !important;
+}
+
+section.about p {
+  margin-right: 0px;
+}
+
+.social-icons a:hover {
+  background-color: #343a40 !important;
+}
+
+section.projects {
+  margin-right: 0px;
+}
+
+h3 {
+  color: #fbde44ff;
+}
