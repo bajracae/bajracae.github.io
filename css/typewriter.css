@@ -1,28 +1,27 @@
 #container {
-	text-align: center;
+  text-align: center;
 }
 
 #text {
-	display: inline-block;
-	/* vertical-align: middle; */
-	color: #fff;
-	letter-spacing: 2px;
+  display: inline-block;
+  color: #fbde44ff;
+  letter-spacing: 2px;
 }
 
 #cursor {
-	display: inline-block;
-	/* vertical-align: middle; */
-	width: 3px;
-	height: 4.5rem;
-	background-color: #fff;
-	animation: blink .75s step-end infinite;
+  display: inline-block;
+  width: 3px;
+  height: 4.5rem;
+  background-color: #fff7ec;
+  animation: blink 0.75s step-end infinite;
 }
 
 @keyframes blink {
-	from, to { 
-		background-color: transparent 
-	}
-	50% { 
-		background-color: #fff; 
-	}
+  from,
+  to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #fff7ec;
+  }
 }
